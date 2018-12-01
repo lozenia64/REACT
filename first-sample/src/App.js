@@ -1,7 +1,12 @@
+//var React = require('react');
+//var Component = React.Component;
+//모듈의 아래와 같이 import를 사용하여 불러올 수 있다.
 import React, { Component } from 'react';
+//svg,css 파일도 import를 사용하여 불러올 수 있다.
 import logo from './logo.svg';
 import './App.css';
 
+//App 클래스 선언. Component 클래스 상속.
 class App extends Component {
   render() {
     return (
